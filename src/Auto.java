@@ -7,6 +7,7 @@ public class Auto extends Transport {
         this.fuelType = fuelType;
         this.probeg = probeg;
     }
+    @Override
     public void getInfo() {
         System.out.println(this.getModel() + " " + this.getYear() + " " + this.getFuelType() + " "
                 + this.getProbeg() + " ");

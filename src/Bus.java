@@ -5,6 +5,7 @@ public class Bus extends Auto {
         super(model, year, fuelType, probeg);
         this.trekNumber = trekNumber;
     }
+    @Override
     public void getInfo() {
         System.out.println(this.getModel() + " " + this.getYear() + " " + this.getFuelType() + " "
                 + this.getProbeg() + " " + this.getTrekNumber());

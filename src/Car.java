@@ -5,6 +5,7 @@ public class Car extends Auto {
         super(model, year, fuelType, probeg);
         this.power = power;
     }
+    @Override
     public void getInfo() {
         System.out.println(this.getModel() + " " + this.getYear() + " " + this.getFuelType() + " "
                 + this.getProbeg() + " " + this.getPower());
